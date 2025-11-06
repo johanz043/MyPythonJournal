@@ -3,35 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vercel Live Test</title>
+  <title>Home - Horizontal</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #4facfe, #00f2fe);
-      color: white;
-      text-align: center;
-      height: 100vh;
-      margin: 0;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #3a5a40;
+      font-family: Arial, sans-serif;
     }
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
+    h1 { margin-bottom: 40px; color: white; }
+    .button-row {
+      display: flex;
+      gap: 20px;
     }
-    p {
-      font-size: 1.2rem;
+    button {
+      padding: 15px 25px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background: white;
+      color: #3a5a40;
     }
+    button:hover { background: black; color: white; }
   </style>
 </head>
 <body>
-  <h1>🚀 Vercel Deployment Successful!</h1>
-  <p>If you see this page, your website is live and connected to GitHub 🎉</p>
-  <p>Last updated: <span id="time"></span></p>
-
-  <script>
-    document.getElementById("time").textContent = new Date().toLocaleString();
-  </script>
+  <h1>My Python Journal</h1>
+  <div class="button-row">
+    <button onclick="location.href='terminology.html'">Terminology</button>
+    <button onclick="location.href='algorithms.html'">Algorithms</button>
+    <button onclick="location.href='frameworks.html'">Frameworks</button>
+  </div>
 </body>
 </html>
