@@ -8,8 +8,8 @@ Since Python is my favored language, I will be going through Python foundations 
 ### What is Python
 ### Variables and data types
 - Integers, floats, strings, booleans
-- Type casting (int(), float(), str()
-- Input/output (input(), print()
+- Type casting (int(), float(), str())
+- Input/output (input(), print())
 ### Basic calculations
 - Arithmetic operators
 ### Control Flow
