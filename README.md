@@ -6,7 +6,7 @@ Since Python is my favored language, I will be going through Python foundations 
 
 ## Topics
 ### [What is Python](what-is-python.md)
-### Variables and data types
+### [Variables and data types](variables.md)
 - Integers, floats, strings, booleans
 - Type casting (int(), float(), str())
 - Input/output (input(), print())
