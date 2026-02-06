@@ -10,7 +10,7 @@ Since Python is my favored language, I will be going through Python foundations 
 - Integers, floats, strings, booleans
 - Type casting (int(), float(), str())
 - Input/output (input(), print())
-### Basic calculations
+### [Basic calculations](calculations.md)
 - Arithmetic operators
 ### Control Flow
 - Conditional logic
