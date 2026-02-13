@@ -22,8 +22,6 @@ Since Python is my favored language, I will be going through Python foundations 
   - forloops
   - while loops
   - break, continue, pass
-  - loop nesting
-  - common loop patterns
 ### Data Structures
 - Lists
 - Tuples
