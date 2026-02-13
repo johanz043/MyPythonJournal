@@ -12,7 +12,7 @@ Since Python is my favored language, I will be going through Python foundations 
 - Input/output (input(), print())
 ### [Basic calculations](calculations.md)
 - Arithmetic operators
-### Control Flow
+### [Control Flow[(control-flow.md)
 - Conditional logic
   - if statements
   - comparison operators
